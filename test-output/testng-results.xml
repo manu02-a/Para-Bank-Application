@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-15T20:22:02 IST" name="Default suite" finished-at="2025-03-15T20:22:50 IST" duration-ms="48535">
+  <suite started-at="2025-04-19T10:56:36 IST" name="Default suite" finished-at="2025-04-19T10:56:51 IST" duration-ms="14826">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@413d1baf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@65f8f5ae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-15T20:22:02 IST" name="Default test" finished-at="2025-03-15T20:22:50 IST" duration-ms="48535">
+    <test started-at="2025-04-19T10:56:36 IST" name="Default test" finished-at="2025-04-19T10:56:51 IST" duration-ms="14826">
       <class name="RunnerFiles.LoginPageRunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@413d1baf]" started-at="2025-03-15T20:22:02 IST" name="setUpClass" finished-at="2025-03-15T20:22:02 IST" duration-ms="350" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@65f8f5ae]" started-at="2025-04-19T10:56:36 IST" name="setUpClass" finished-at="2025-04-19T10:56:37 IST" duration-ms="402" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2e807c54]]>
+                <![CDATA[org.testng.TestRunner@7d5508e0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@413d1baf]" started-at="2025-03-15T20:22:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-15T20:22:19 IST" duration-ms="17329" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@65f8f5ae]" started-at="2025-04-19T10:56:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-19T10:56:51 IST" duration-ms="14307" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -54,39 +54,7 @@ at ✽.user gets successful message "Your account was created successfully. You 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@413d1baf]" started-at="2025-03-15T20:22:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-15T20:22:37 IST" duration-ms="17727" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user able to login to application with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login page functionalities and validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerFiles.LoginPageRunnerTest@413d1baf]" started-at="2025-03-15T20:22:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-15T20:22:50 IST" duration-ms="13029" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user able to retrive the credentials usering forgot info link"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login page functionalities and validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerFiles.LoginPageRunnerTest@413d1baf]" started-at="2025-03-15T20:22:50 IST" name="tearDownClass" finished-at="2025-03-15T20:22:50 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerFiles.LoginPageRunnerTest@65f8f5ae]" started-at="2025-04-19T10:56:51 IST" name="tearDownClass" finished-at="2025-04-19T10:56:51 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
